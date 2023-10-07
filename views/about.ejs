@@ -1,0 +1,16 @@
+<%- include("header") -%>
+<div id="postdiv">
+  <form action="/edit" method="post">
+
+    <span id="post">Posts</span><button name="add" value="addnew" id="addnew">+ ADD NEW</button>
+    <br /><br />
+    <% addlist.forEach(list =>{ %>
+      <div id="posttextdiv">
+        <a href="/edit" id="linktext"><%= list.head %> </a>
+        <button class="edit-text" name="edittext" value=<%= list._id %> >Edit</button>
+        <button name="deletebtn" class="delete-text" value=<%= list._id %> >Delete</button>
+      </div>
+  <%  }) %>
+  </form>
+</div>
+<%- include("footer") -%>

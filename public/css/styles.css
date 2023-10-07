@@ -1,0 +1,158 @@
+#editbody{
+  background-color: beige;
+}
+#back{
+  background-color: beige;
+  border: 1px solid beige;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: large;
+  margin: 10px;
+  margin-left: 4px;
+}
+#h1{
+  font-size: 30px;
+  font-weight: 1000;
+}
+#delete{
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 500px;
+
+  font-size: large;
+  color: white;
+}
+#title{
+  font-size: large;
+  font-weight: 700;
+  margin: 10px;
+  
+}
+#head{
+  margin: 10px;
+  padding: 5px;
+  width: 900px;
+  height: 40px;
+}
+#content{
+  font-size: large;
+  font-weight: 700;
+}
+#update{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: medium;
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 10px;
+
+}
+
+#flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#editdiv{
+  width: 800px;
+}
+#contentaddress{
+  margin: 10px;
+}
+.footer{
+  font-size: large;
+  margin: 10px;
+  margin-left: 200px;
+}
+#logout{
+  cursor: pointer;
+}
+html,
+body {
+  height: 100%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#post{
+  font-size: larger;
+  font-weight: 700;
+  margin-left: 13px;
+}
+
+#posttextdiv{
+  margin: 15px;
+}
+#editdiv {
+  width: 800px;
+}
+.footer {
+  font-size: large;
+  margin: 10px;
+  margin-left: 200px;
+}
+#postdiv {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.edit-text {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-size: large;
+  padding: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  margin-left: 5px;
+}
+.delete-text {
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  font-size: large;
+  margin-left: 5px;
+}
+#add {
+  background-color: beige;
+  border: 1px solid beige;
+  border-radius: 2px;
+  margin-left: 1000px;
+  text-decoration: underline;
+}
+#posttextdiv {
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+#linktext {
+  color: black;
+  font-size: large;
+  flex: 1;
+  overflow-wrap: break-word;
+}

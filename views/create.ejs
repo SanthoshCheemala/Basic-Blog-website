@@ -1,0 +1,17 @@
+<%- include("header") -%>
+       <div id="flex">
+        <div id="editdiv">
+            <form id="edit" method="post" action="/create">
+                <button id="back" name="back" value="backtoabout"><-Back</button>
+            </br>
+                <span id="line"><span id="h1">Veiw/Edit Post</span></span><br> 
+            </br>
+                <label for="title" id="title">Title:</label><br>
+                <input type="text" id="head" name="head"><br>
+                <label for="content" id="content">content:</label><br>
+                <textarea rows="8" cols="118" id="contentaddress" name="content"></textarea><br>
+                <button id="update" name="create" value="crt">Create</button>
+            </form>
+        </div>
+        </div>
+        <%- include("footer") -%>
